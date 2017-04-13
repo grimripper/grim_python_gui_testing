@@ -35,5 +35,6 @@ if __name__=="__main__":
     app = QApplication(sys.argv)
     w = MyDialog()
     w.resize(600, 400)
+    #w.showFullScreen()
     w.show()
-    app.exec_()
+    sys.exit(app.exec_())
